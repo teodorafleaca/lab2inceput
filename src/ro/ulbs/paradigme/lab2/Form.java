@@ -2,7 +2,6 @@ package ro.ulbs.paradigme.lab2;
 
 public class Form {
     private String color;
-
     public Form(){
         color="white";
     }
@@ -16,4 +15,7 @@ public class Form {
         return "This Form has the color"+color;
     }
 
+    public String getColor() {
+        return color;
+    }
 }
